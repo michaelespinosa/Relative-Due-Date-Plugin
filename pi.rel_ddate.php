@@ -82,7 +82,7 @@ class Rel_ddate
 	ob_start();
 	?>
 
-	There's not much to document here. It just returns a class based on the given date and current date (Late - date has past, soon - within 5 days, on-time - more than 5 days)
+	There's not much to document here. It just returns a class based on the given date and current date (Late - date has past, soon - within 5 days, on-time - more than 5 days).
 
 	<?php
 	$buffer = ob_get_contents();
@@ -94,5 +94,5 @@ class Rel_ddate
 
 	}
 
-/* End of file pi.auto_acronym.php */
+/* End of file pi.rel_ddate.php */
 /* Location: ./system/plugins/pi.rel_ddate.php */
